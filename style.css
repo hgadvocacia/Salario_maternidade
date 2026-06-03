@@ -253,25 +253,26 @@
         }
 
         .intro-strip {
-            display: flex;               /* Ativa o Flexbox */
-            justify-content: center;     /* Centraliza os itens horizontalmente */
-            align-items: center;         /* Alinha os itens verticalmente ao centro */
-            gap: 3rem;                   /* Espaço entre os blocos (ajuste se achar necessário) */
-            flex-wrap: wrap;
-        }
+    display: flex;               /* Ativa o Flexbox */
+    justify-content: center;     /* Centraliza os itens horizontalmente */
+    align-items: center;         /* Alinha os itens verticalmente ao centro */
+    gap: 3rem;                   /* Espaço entre os blocos (ajuste se achar necessário) */
+    flex-wrap: wrap;
+}
 
-        .strip-item { display: flex; align-items: center; gap: 1.25rem; flex-shrink: 0; }
+.strip-item { display: flex; align-items: center; gap: 1.25rem; flex-shrink: 0; }
 
-        .strip-num {
-          font-family: 'Cormorant Garamond', serif;
-          font-size: 2.2rem; font-weight: 600;
-          color: var(--gold); line-height: 1;
-        }
+.strip-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem; font-weight: 600;
+    color: var(--gold); line-height: 1;
+}
 
-        .strip-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); line-height: 1.5; max-width: 140px; }
+.strip-label { font-size: 0.78rem; font-weight: 400; color: var(--muted); line-height: 1.5; max-width: 140px; }
 
-        .strip-sep { width: 1px; height: 40px; background: var(--border); flex-shrink: 0; }
+.strip-sep { width: 1px; height: 40px; background: var(--border); flex-shrink: 0; }
 
+/* PARE AQUI! Não apague o .section que vem logo abaixo! */
         .section { padding: 7rem 4rem; }
 
         .section-eyebrow { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
