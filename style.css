@@ -774,6 +774,6 @@ font-weight:700;
 @media (max-width: 768px) {
     .hero-image-wrap img {
         /* 50% é o meio. 40% centraliza com um leve toque para a esquerda */
-        object-position: 70% center !important; 
+        object-position: 65% center !important; 
     }
 }
