@@ -773,6 +773,7 @@ font-weight:700;
 /* Ajuste do foco da imagem de fundo no celular */
 @media (max-width: 768px) {
     .hero-image-wrap img {
-        object-position: left center !important;
+        /* Muda o foco da imagem para o lado direito no celular */
+        object-position: right center !important; 
     }
 }
