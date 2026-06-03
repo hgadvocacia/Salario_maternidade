@@ -770,3 +770,9 @@ font-weight:700;
         justify-content: center !important;
     }
 }
+/* Ajuste do foco da imagem de fundo no celular */
+@media (max-width: 768px) {
+    .hero-image-wrap img {
+        object-position: left center !important;
+    }
+}
