@@ -716,3 +716,57 @@ font-weight:700;
         padding:3rem 1.5rem;
     }
 }
+/* --- FORÇANDO A CENTRALIZAÇÃO E ESTILO (COLE NO FINAL DO ARQUIVO) --- */
+.intro-strip {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 4rem !important;
+    padding: 3rem 1.5rem !important;
+    width: 100%;
+}
+
+.strip-item {
+    display: flex !important;
+    align-items: center !important;
+    gap: 1.2rem !important;
+}
+
+.strip-num {
+    font-size: 3.5rem !important;
+    line-height: 1 !important;
+    font-family: 'Cormorant Garamond', serif !important;
+    color: var(--gold) !important;
+}
+
+.strip-label {
+    font-size: 0.85rem !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.1em !important;
+    line-height: 1.5 !important;
+    text-transform: uppercase !important;
+    text-align: left !important;
+    max-width: 200px !important;
+    opacity: 0.9 !important;
+}
+
+.strip-sep {
+    width: 1px !important;
+    height: 60px !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Responsivo para Celular */
+@media (max-width: 768px) {
+    .intro-strip {
+        flex-direction: column !important;
+        gap: 2rem !important;
+    }
+    .strip-sep {
+        width: 60px !important;
+        height: 1px !important;
+    }
+    .strip-item {
+        justify-content: center !important;
+    }
+}
