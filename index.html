@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Salário Maternidade — Herbert & Galeno Advogados</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a aria-label="Fale comigo no privado" class="wa-float" href="https://wa.me/556993969597?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20advogado%20no%20privado%20sobre%20o%20Sal%C3%A1rio%20Maternidade." rel="noopener" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<nav>
+    <div class="nav-logo">
+        <span class="nav-logo-main">Herbert & Galeno</span>
+        <span class="nav-logo-sub">Advogados Associados</span>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#direito">Direitos</a></li>
+        <li><a href="#como-funciona">Como funciona</a></li>
+        <li><a href="#quem">Quem tem direito</a></li>
+        <li><a class="nav-cta" href="#contato">Fale conosco</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-image-wrap">
+        <img alt="Mãe segurando a barriga" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3vgxWBoRAtEsKJEOJo9PHge-xOAAdUj_bgMJX_y_wvochzj3cgTckLiaFJ2xuN9rkuHBXwYbEfXn7Ul27k6hynhyrmc4quqPg0KjQp6WcGe__Ng69ctugHmVFMXtPPpXYIn36vAofaGR8zJzG85Zx_UvvXn79t7Rbiom314kSVoDdZZXoJ1xvF8k60oZpS-McufIlqvGDEa1T3lnFG4DmGs84VnyIoVUyfjQUARpDu7dCN_DakD_n98cMDv4WFtbUDyjJlwbevWzc"/>
+    </div>
+    <div class="hero-line"></div>
+    <div class="hero-line hero-line-r"></div>
+    <div class="hero-inner">
+        <div class="hero-eyebrow">
+            <div class="hero-eyebrow-line"></div>
+            <span class="hero-eyebrow-text">HG Advocacia · Direito Previdenciário</span>
+            <span class="hero-eyebrow-text">Advocacia Previdenciária Especializada</span>
+        </div>
+        <h1>
+<span class="gold-title">SALÁRIO MATERNIDADE</span><br>
+Está grávida e nunca contribuiu com o INSS?<br>
+Você pode ter direito ao benefício.
+</h1>
+        <p class="hero-desc">
+            Faça uma análise gratuita e descubra em poucos segundos se você pode receber o Salário Maternidade, mesmo sem nunca ter contribuído com o INSS.
+        </p>
+        <div class="hero-actions">
+            <a class="btn-wa-hero" href="https://wa.me/556993969597?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20advogado%20sobre%20o%20Sal%C3%A1rio%20Maternidade." target="_blank">
+                <i class="fa-solid fa-phone"></i>
+                Quero Saber se Tenho Direito
+            </a>
+            <a class="btn-analysis" href="#contato">Descobrir se Tenho Direito ↓</a>
+        </div><div class="hero-proof">✓ Atendimento imediato<br>✓ Análise gratuita<br>✓ Especialistas em Direito Previdenciário</div>
+    </div>
+    <div class="hero-scroll">
+        <div class="hero-scroll-dot"></div>
+        <span>Role para saber mais</span>
+    </div>
+</section>
+<section class="hero-form-section" id="contato">
+<div class="hero-form-container">
+<div class="urgencia-box">⚠️ Poucas mães sabem disso: mesmo sem ter contribuído para o INSS você pode ter direito ao Salário Maternidade.</div><h2>Faça sua análise gratuita</h2>
+<p>Responda algumas perguntas e descubra se você pode ter direito ao benefício.</p>
+<div class="reveal" id="multistep-form">
+            <div class="step-header">
+                <span class="step-count" id="step-label">ETAPA 1 DE 4</span>
+                <span class="step-timer">⏱ 30 seg</span>
+            </div>
+            <div id="step-container">
+                </div>
+            <div class="form-actions">
+                <button class="btn-next" id="next-btn" onclick="nextStep()">Continuar →</button>
+                <button class="btn-back" id="back-btn" onclick="prevStep()" style="display:none;">Voltar para o anterior</button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<div class="topics-strip">
+    <div class="topic-card reveal">
+        <div class="topic-icon">
+            <i class="fa-regular fa-user"></i>
+        </div>
+        <span class="topic-title">Análise Individual</span>
+    </div>
+    <div class="topic-card reveal">
+        <div class="topic-icon">
+            <i class="fa-regular fa-file-lines"></i>
+        </div>
+        <span class="topic-title">Análise Completa</span>
+    </div>
+    <div class="topic-card reveal">
+        <div class="topic-icon">
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+        <span class="topic-title">Atendimento Ágil</span>
+    </div>
+    <div class="topic-card reveal">
+        <div class="topic-icon">
+            <i class="fa-regular fa-circle-check"></i>
+        </div>
+        <span class="topic-title">Retorno Certo</span>
+    </div>
+</div>
+
+<div class="intro-strip">
+    <div class="strip-item reveal"><div class="strip-num">120</div><div class="strip-label">DIAS DE BENEFÍCIO GARANTIDOS POR LEI</div></div>
+    <div class="strip-sep"></div>
+    <div class="strip-item reveal"><div class="strip-num">180</div><div class="strip-label">DIAS COM EMPRESA CIDADÃ</div></div>
+    <div class="strip-sep"></div>
+    <div class="strip-item reveal"><div class="strip-num">100%</div><div class="strip-label">DO SALÁRIO MANTIDO SEM DESCONTO</div></div>
+    <div class="strip-sep"></div>
+    <div class="strip-item reveal"><div class="strip-num">0</div><div class="strip-label">RISCO COM ORIENTAÇÃO JURÍDICA ESPECIALIZADA</div></div>
+</div>
+
+<section class="section" id="direito">
+    <div class="section-eyebrow reveal"><div class="section-eyebrow-line"></div><span class="section-eyebrow-text">O que você precisa saber</span></div>
+    <h2 class="section-title reveal">Seu direito vai além<br/>do que você imagina</h2>
+    <p class="section-desc reveal">O salário maternidade é garantido pela Constituição Federal e pela Lei 8.213/91 — e abrange muito mais do que o parto.</p>
+    <div class="direito-grid">
+        <div class="direito-card reveal">
+            <span class="dc-num">01</span>
+            <h3 class="dc-title">Licença de 120 a 180 dias</h3>
+            <p class="dc-text">Trabalhadoras CLT têm direito a 120 dias de afastamento remunerado. Em empresas aderentes ao Empresa Cidadã, esse prazo sobe para 180 dias — sem redução salarial.</p>
+        </div>
+        <div class="direito-card reveal">
+            <span class="dc-num">02</span>
+            <h3 class="dc-title">Autônomas e MEI também têm direito</h3>
+            <p class="dc-text">Contribuintes individuais e MEIs têm direito ao benefício. Muitas desconhecem esse direito e acabam não solicitando.</p>
+        </div>
+        <div class="direito-card reveal">
+            <span class="dc-num">03</span>
+            <h3 class="dc-title">Adoção e guarda judicial</h3>
+            <p class="dc-text">Mães adotivas ou que obtiveram guarda judicial também têm direito ao salário maternidade integral, independentemente da idade da criança.</p>
+        </div>
+        <div class="direito-card reveal">
+            <span class="dc-num">04</span>
+            <h3 class="dc-title">Revisão de benefício negado ou reduzido</h3>
+            <p class="dc-text">Se seu pedido foi negado ou o valor veio abaixo do correto, é possível entrar com recurso administrativo ou ação judicial para regularizar sua situação.</p>
+        </div>
+        <div class="direito-card reveal">
+            <span class="dc-num">05</span>
+            <h3 class="dc-title">Estabilidade no emprego</h3>
+            <p class="dc-text">A gestante tem estabilidade desde a confirmação da gravidez até 5 meses após o parto. Demissão nesse período é nula de pleno direito e pode gerar indenização.</p>
+        </div>
+        <div class="direito-card reveal">
+            <span class="dc-num">06</span>
+            <h3 class="dc-title">FGTS preservado durante a licença</h3>
+            <p class="dc-text">Durante toda a licença-maternidade, o empregador é obrigado a continuar depositando o FGTS normalmente. A não observância gera responsabilidade trabalhista.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section como-section" id="como-funciona">
+    <div class="como-inner">
+        <div>
+            <div class="section-eyebrow reveal"><div class="section-eyebrow-line"></div><span class="section-eyebrow-text">Nosso processo</span></div>
+            <h2 class="section-title reveal">Como a HG<br/><em>Advocacia</em><br/>atua pelo<br/>seu caso</h2>
+            <p class="section-desc reveal" style="margin-top:1rem;">Atuamos de forma ágil, transparente e orientada a resultado. Desde o primeiro contato até o recebimento do benefício, você nunca fica sem resposta.</p>
+        </div>
+        <div class="steps-list">
+            <div class="step reveal">
+                <div class="step-circle">01</div>
+                <div class="step-body">
+                    <h4>Consulta inicial gratuita</h4>
+                    <p>Você entra em contato pelo WhatsApp ou e-mail. Nossa equipe faz uma análise preliminar do seu caso sem nenhum custo.</p>
+                </div>
+            </div>
+            <div class="step reveal">
+                <div class="step-circle">02</div>
+                <div class="step-body">
+                    <h4>Levantamento documental</h4>
+                    <p>Identificamos todos os documentos necessários e orientamos você sobre como obtê-los de forma simples e rápida.</p>
+                </div>
+            </div>
+            <div class="step reveal">
+                <div class="step-circle">03</div>
+                <div class="step-body">
+                    <h4>Pedido junto ao INSS ou ação judicial</h4>
+                    <p>Protocolamos o benefício administrativamente ou ingressamos com ação judicial, conforme a necessidade do caso.</p>
+                </div>
+            </div>
+            <div class="step reveal">
+                <div class="step-circle">04</div>
+                <div class="step-body">
+                    <h4>Acompanhamento até o recebimento</h4>
+                    <p>Monitoramos o andamento, respondemos a eventuais exigências do INSS, até o recebimento.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="quem">
+    <div class="section-eyebrow reveal"><div class="section-eyebrow-line"></div><span class="section-eyebrow-text">Elegibilidade</span></div>
+    <h2 class="section-title reveal">Quem tem <em>direito</em><br/>ao benefício?</h2>
+    <p class="section-desc reveal">O benefício é mais amplo do que muitos imaginam. Veja se o seu perfil se enquadra.</p>
+    <div class="quem-grid">
+        <div class="quem-item reveal">
+            <span class="qi-icon">
+                <i class="fa-solid fa-briefcase"></i>
+            </span>
+            <h4 class="qi-title">Empregada CLT</h4>
+            <p class="qi-text">Qualquer trabalhadora com carteira assinada tem direito automático, sem carência. O benefício é pago pelo empregador e compensado pelo INSS.</p>
+        </div>
+        <div class="quem-item reveal">
+            <span class="qi-icon">
+                <i class="fa-regular fa-file-lines"></i>
+            </span>
+            <h4 class="qi-title">Autônoma ou MEI</h4>
+            <p class="qi-text">Com pelo menos 10 meses de contribuições mensais ao INSS, a autônoma ou MEI tem direito ao benefício diretamente pela Previdência Social.</p>
+        </div>
+        <div class="quem-item reveal">
+            <span class="qi-icon">
+                <i class="fa-solid fa-wheat-sheet"></i>
+            </span>
+            <h4 class="qi-title">Trabalhadora Rural</h4>
+            <p class="qi-text">Segurada especial rural tem direito sem carência, com comprovação de atividade rural. Recebe o valor equivalente a 1 salário mínimo.</p>
+        </div>
+        <div class="quem-item reveal">
+            <span class="qi-icon">
+                <i class="fa-solid fa-users"></i>
+            </span>
+            <h4 class="qi-title">Adoção ou Guarda</h4>
+            <p class="qi-text">Mães adotivas ou guardiãs têm direito ao benefício integral, podendo iniciar o pedido a partir da data da guarda judicial.</p>
+        </div>
+        <div class="quem-item reveal">
+            <span class="qi-icon">
+                <i class="fa-solid fa-building-columns"></i>
+            </span>
+            <h4 class="qi-title">Servidora Pública</h4>
+            <p class="qi-text">Servidoras têm regime específico conforme o estatuto do ente, com regras próprias que podem garantir até 180 dias de licença remunerada.</p>
+        </div>
+        <div class="quem-item reveal">
+            <span class="qi-icon">
+                <i class="fa-solid fa-scale-balanced"></i>
+            </span>
+            <h4 class="qi-title">Benefício negado ou revisável</h4>
+            <p class="qi-text">Se você já pediu e foi negada, ou recebeu menos do que deveria, temos solução. É possível reverter administrativamente ou pela via judicial.</p>
+        </div>
+    </div>
+</section>
+
+<div class="cta-band reveal">
+    <h2>Não fique na dúvida sobre um<br/><strong>direito tão importante</strong></h2>
+    <a class="btn-wa-call" href="https://wa.me/556993969597?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20advogado%20sobre%20o%20Sal%C3%A1rio%20Maternidade." target="_blank">
+        <i class="fa-brands fa-whatsapp" style="margin-right: 0.5rem; font-size: 1.25rem;"></i>
+        Quero Saber se Tenho Direito
+    </a>
+</div>
+
+<div class="contato-section" id="contato">
+    <div class="contato-info">
+        <div class="section-eyebrow reveal"><div class="section-eyebrow-line"></div><span class="section-eyebrow-text">Inicie sua análise</span></div>
+        <h2 class="section-title reveal" style="max-width:320px; margin-bottom:3rem;">Descubra seu<br/><em>direito</em> em segundos</h2>
+        <div class="contact-item reveal">
+            <div class="contact-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <div>
+                <span class="contact-label">WhatsApp Direto</span>
+                <div class="contact-value"><a href="https://wa.me/556993969597?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20uma%20d%C3%BAvia%20sobre%20meu%20Sal%C3%A1rio%20Maternidade." target="_blank">+55 (69) 9396-9597</a></div>
+            </div>
+        </div>
+        <div class="contact-item reveal">
+            <div class="contact-icon"><i class="fa-regular fa-envelope"></i></div>
+            <div>
+                <span class="contact-label">E-mail Corporativo</span>
+                <div class="contact-value"><a href="mailto:herbert@hgadvocacia.adv.br">herbert@hgadvocacia.adv.br</a></div>
+            </div>
+        </div>
+        <div class="contact-item reveal">
+            <div class="contact-icon"><i class="fa-regular fa-clock"></i></div>
+            <div>
+                <span class="contact-label">Atendimento</span>
+                <div class="contact-value">Atendimento imediato via WhatsApp<br/>Segunda a Sexta, 8h–18h</div>
+            </div>
+        </div>
+    </div><section class="advogados-section">
+
+    <div class="advogado-card">
+        <img src="ARLISSON.jpeg" alt="Foto de Diego Alves" class="foto-advogado">
+        <h3>Arlisson Herbert dos Santos Souza</h3>
+
+        <span class="oab">
+            Advogado • OAB/RO 10.452
+        </span>
+    </div>
+
+    <div class="advogado-card">
+        <img src="GALENO.PNG" alt="Foto de Diego Alves" class="foto-advogado">
+        <h3>Diego Alves Galeno da Costa</h3>
+
+        <span class="oab">
+            
+            Advogado • OAB/RO 11.301
+        </span>
+    </div>
+
+</section>
+    </div>
+</div>
+
+<footer>
+    <div>
+        <div style="font-family:'Cormorant Garamond',serif; font-size:1rem; font-weight:600; letter-spacing:0.2em; color:var(--white); text-transform:uppercase;">HERBERT & GALENO</div>
+        <div style="font-size:0.55rem; letter-spacing:0.28em; color:var(--gold); text-transform:uppercase; margin-top:0.3rem;">Advogados Associados</div>
+    </div>
+    <div class="footer-note">Este site tem caráter informativo e não constitui consultoria jurídica formal. Para análise do seu caso específico, entre em contato com nossa equipe.</div>
+    <div class="footer-right">© 2026 HG Advocacia<br/>Todos os direitos reservados</div>
+</footer>
+
+<script>
+  // Observador de Rolagem para Animações (Reveals)
+  const reveals = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('on'), i * 70);
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08 });
+  reveals.forEach(el => io.observe(el));
+
+  // Lógica do Formulário Dinâmico Multi-etapas
+  let currentStep = 1;
+  const totalSteps = 5;
+  const formData = {
+    situacao: '',
+    cenario: '',
+    contribuicao: '',
+    solicitacao: '',
+    nome: ''
+  };
+
+  const steps = {
+    1: {
+      title: "Qual é a sua situação em relação ao filho?",
+      options: [
+        "Ainda estou grávida",
+        "Meu filho tem até 5 anos",
+        "Meu filho tem mais de 5 anos"
+      ],
+      key: 'situacao'
+    },
+    2: {
+      title: "Qual é a sua situação de trabalho?",
+      options: [
+        "Estou desempregada",
+        "Trabalho de carteira assinada(CLT)",
+        "Sou MEI ou autônoma",
+        "Recebo Bolsa Família"
+      ],
+      key: 'cenario'
+    },
+    3: {
+      title: "Você já contribuiu para o INSS?",
+      options: [
+        "Sim, já contribuí",
+        "Não contribuí",
+        "Não sei informar"
+      ],
+      key: 'contribuicao'
+    },
+    4: {
+      title: "Já solicitou o Auxílio-Maternidade?",
+      options: [
+        "Sim, e foi negado",
+        "Sim, ainda está em análise",
+        "Não, nunca solicitei"
+      ],
+      key: 'solicitacao'
+    },
+    5: {
+      title: "Qual é o seu nome?",
+      type: 'input',
+      placeholder: 'Seu nome completo',
+      key: 'nome'
+    }
+  };
+
+  function renderStep() {
+    const container = document.getElementById('step-container');
+    const label = document.getElementById('step-label');
+    const nextBtn = document.getElementById('next-btn');
+    const backBtn = document.getElementById('back-btn');
+    const stepData = steps[currentStep];
+
+    label.innerText = currentStep === 4 ? "ETAPA FINAL" : `ETAPA ${currentStep} DE 4`;
+    backBtn.style.display = currentStep > 1 ? 'block' : 'none';
+    nextBtn.innerText = currentStep === 4 ? "Enviar respostas ➔" : "Continuar ➔";
+
+    let html = `<div class="step-content"><h3>${stepData.title}</h3>`;
+
+    if (stepData.type === 'input') {
+      html += `
+        <div class="input-group">
+          <input type="text" id="form-input" class="input-field" placeholder="${stepData.placeholder}" value="${formData[stepData.key]}" oninput="updateInputValue(this.value)">
+        </div>
+      `;
+    } else {
+      html += `<div class="option-list">`;
+      stepData.options.forEach(opt => {
+        const isSelected = formData[stepData.key] === opt;
+        html += `
+          <button class="option-btn ${isSelected ? 'selected' : ''}" onclick="selectOption('${opt}')">
+            ${opt}
+            <span>${isSelected ? '●' : '○'}</span>
+          </button>
+        `;
+      });
+      html += `</div>`;
+    }
+
+    html += `</div>`;
+    container.innerHTML = html;
+  }
+
+  function selectOption(val) {
+    formData[steps[currentStep].key] = val;
+    renderStep();
+    setTimeout(nextStep, 300);
+  }
+
+  function updateInputValue(val) {
+    formData[steps[currentStep].key] = val;
+  }
+
+  function nextStep() {
+    if (!formData[steps[currentStep].key]) {
+      alert("Por favor, selecione uma opção ou preencha o campo.");
+      return;
+    }
+
+    if (currentStep < totalSteps) {
+      currentStep++;
+      renderStep();
+    } else {
+      finishForm();
+    }
+  }
+
+  function prevStep() {
+    if (currentStep > 1) {
+      currentStep--;
+      renderStep();
+    }
+  }
+
+  function finishForm() {
+    const texto = `Olá! Realizei a consulta no site da HG Advocacia.\n\n*Nome:* ${formData.nome}\n*Situação:* ${formData.situacao}\n*Cenário:* ${formData.cenario}\n*Contribuição:* ${formData.contribuicao}\n*Já solicitou:* ${formData.solicitacao}`;
+    window.open(`https://wa.me/556993969597?text=${encodeURIComponent(texto)}`, '_blank');
+  }
+
+  renderStep();
+</script>
+</body>
+</html>
