@@ -253,12 +253,11 @@
         }
 
         .intro-strip {
-          background: var(--navy-dk);
-          border-bottom: 1px solid var(--border);
-          padding: 2.5rem 4rem;
-          display: flex; align-items: center; justify-content: space-between;
-          gap: 2rem;
-          overflow-x: auto;
+            display: flex;               /* Ativa o Flexbox */
+            justify-content: center;     /* Centraliza os itens horizontalmente */
+            align-items: center;         /* Alinha os itens verticalmente ao centro */
+            gap: 3rem;                   /* Espaço entre os blocos (ajuste se achar necessário) */
+            flex-wrap: wrap;
         }
 
         .strip-item { display: flex; align-items: center; gap: 1.25rem; flex-shrink: 0; }
